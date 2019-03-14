@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* aqui empieza lo mio */
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+  background-color: #660000;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content:flex-start;
+  flex-direction: row;
+  flex-flow: wrap;
+
+}
+
+.nidet{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.productCard{
+  align-items:center;
+  justify-content: center;
+  width:33%;
+}
+
+.productCard img{
+  width: 300px;
+}
+div {
+  display: block;
+}
+
+.cont-detail{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+
+.forCards h6{
+  word-wrap: break-word ;
+}
+
+.parallax-container{
+  height: 630px;
+}
+
+.fotoProblema{
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: auto;
+	height: auto;
+	background-image: url(https://thecraftymuslimah.files.wordpress.com/2014/06/shop_window_woman_mannequin_003_3d_model_fbx_obj_max__b162ccfb-5a46-4e21-8939-caca2b116b56.jpg);
+	background-size: cover;
+	z-index: 0;
+}
+
+.fotoProblema2{
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: auto;
+	height: auto;
+	background-image: url(https://static.turbosquid.com/Preview/2017/01/06__07_12_34/02.jpgE0EA009D-4095-4986-9A41-4BE8D5EB6C12Original.jpg);
+	background-size: cover;
+	z-index: 0;
+}
+
+.fotito {
+  position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: auto;
+	height: auto;
+  background-size: cover;
+  background-color: #667483;
+	z-index: 0;
+}
+
+.fotoTop {
+  background-color: #f7f7f7;
+}
